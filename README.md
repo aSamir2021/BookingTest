@@ -59,6 +59,7 @@ Use your preferred Git client or the command line to clone the project:
 
 git clone [https://github.com/aSamir2021/BookingTest.git](https://github.com/aSamir2021/BookingTest.git)
 
+
 2. Running the Test Case
 The project is configured to run directly as a JUnit test from your IDE.
 
@@ -66,7 +67,7 @@ Open the project in IntelliJ IDEA. Maven will automatically resolve all dependen
 
 Navigate to the test file: src/test/java/org/example/BookingTesting.java.
 
-Right-click on the testValidInputs() method and select Run 'testValidInputs'.
+Right-click on the testValidInputs() method within the class and select Run 'testValidInputs' from the context menu.
 
 The test will perform the full booking flow using the data defined within the test method (e.g., noOfAdults = "10", noOfChildren = "3").
 
